@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Tic Tac Toe</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles.css'>
+    <script src='script.js'></script>
+</head>
+<body>
+    
+<div class="fundo">
+
+    <dialog id="ganhou" class="ganhou">Ganhou o Jogo!</dialog>
+
+    <div class="placar" id="placar">
+
+        Vez do Jogador: X
+
+    </div>
+    
+    <div class="tictactoe">
+        <h3 id="title">Tic Tac Toe</h3>
+        <table>
+            <tr>
+                <td><button class= "button" id="1" onclick="assinalar1()"></button></td>
+                <td><button class= "button" id="2" onclick="assinalar2()"></button></td>
+                <td><button class= "button" id="3" onclick="assinalar3()"></button></td>
+            </tr>
+            <tr>
+                <td><button class= "button" id="4" onclick="assinalar4()"></button></td>
+                <td><button class= "button" id="5" onclick="assinalar5()"></button></td>
+                <td><button class= "button" id="6" onclick="assinalar6()"></button></td>
+            </tr>
+            <tr>
+                <td><button class= "button" id="7" onclick="assinalar7()"></button></td>
+                <td><button class= "button" id="8" onclick="assinalar8()"></button></td>
+                <td><button class= "button" id="9" onclick="assinalar9()"></button></td>
+            </tr>
+        </table>
+
+    </div>
+
+    <div class="reset" id="reset">
+        <button id="buttonReset" onclick="reset()">RESETAR</button>
+    </div>
+
+</div>
+
+
+    
+</body>
+</html>
